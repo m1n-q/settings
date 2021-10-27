@@ -1,0 +1,192 @@
+{
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python3",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "C_Cpp.default.systemIncludePath": [],
+    "task.autoDetect": "off",
+    "files.autoGuessEncoding": true,
+    "editor.insertSpaces": false,
+    "editor.renderIndentGuides": true,
+    "C_Cpp.updateChannel": "Insiders",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "editor.rulers": [
+    80
+    ],
+    "editor.renderWhitespace": "trailing",
+    "workbench.colorCustomizations": {
+
+        "editorWhitespace.foreground": "#ff0000",
+      },
+    "bracket-pair-colorizer-2.colors": [
+
+
+        "Gold",
+        "Orchid",
+        "LightSkyBlue"
+    ],
+    "bracket-pair-colorizer-2.highlightActiveScope": true,
+    "bracket-pair-colorizer-2.showBracketsInRuler": true,
+    "python.experiments.optInto": [
+
+    ],
+
+    "42header.username": "mishin",
+    "42header.email": "mishin@student.42seoul.kr",
+    "security.workspace.trust.untrustedFiles": "open",
+    "http.proxySupport": "off",
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.indent": 4,
+    "editor.renderLineHighlight": "all",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "codam-norminette.command2": "",
+    "codam-norminette.fileregex2": "(\\.[c])|Makefile|makefile|GNUmakefile$",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "todohighlight.keywords": [
+        "DEBUG:",
+        "REVIEW:",
+        {
+            "text": "NOTE:",
+            "color": "#ff0000",
+            "backgroundColor": "yellow",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "HACK:",
+            "color": "#000",
+            "isWholeLine": false,
+        },
+        {
+            "text": "TODO:",
+            "color": "red",
+            "border": "1px solid red",
+            "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+            "backgroundColor": "rgba(0,0,0,.2)",
+            //other styling properties goes here ...
+        }
+    ],
+    "todohighlight.defaultStyle": {
+        "color": "blue",
+        "backgroundColor": "#33ffff",
+        "overviewRulerColor": "#33ffff",
+        "isWholeLine": false
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "python.defaultInterpreterPath": "/usr/local/bin/python3",
+    "python.showStartPage": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": null,
+    "diffEditor.renderIndicators": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "NOTE",
+        "FIXIT",
+        "DEBUG",
+        "WARN",
+        "ISSUE",
+    ],
+    "todo-tree.general.tagGroups": {
+
+        "BUG": [
+            "BUG",
+            "DEBUG",
+            "HACK"
+        ],
+        "FIX": [
+            "FIXME",
+            "FIXIT",
+            "ISSUE"
+        ],
+        "TODO": [
+            "TODO"
+        ],
+        "NOTE": [
+            "NOTE"
+        ],
+        "WARN": [
+            "WARN"
+        ],
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "icon": "check-circle",
+            "iconColour": "green",
+            "gutterIcon": true,
+            "type": "text-and-comment",
+            "foreground": "black",
+            "background": "lightgreen",
+            // "opacity": 80,
+            "borderRadius" : "5px",
+        },
+        "FIX": {
+            "icon": "tools",
+            "iconColour": "orange",
+            "type":"text-and-comment",
+            "foreground": "orange",
+            // "background": "rgb(245,245,81)",
+            "gutterIcon": true
+        },
+        "BUG": {
+            "icon": "$(debug)",
+            "type": "text-and-comment",
+            "foreground": "rgb(245,5,5)",
+            "gutterIcon": true
+        },
+        "NOTE": {
+            "icon": "comment",
+            "iconColour": "pink",
+            "type": "text-and-comment",
+            "foreground": "black",
+            "background": "pink",
+            "gutterIcon": true
+        },
+        "WARN": {
+            "icon": "alert",
+            "iconColour": "yellow",
+            "type":"text-and-comment",
+            "foreground": "yellow",
+            // "background": "rgb(245,245,81)",
+            "gutterIcon": true
+        },
+
+    },
+    "editor.fontFamily": "Monaco, menlo, 'Courier New', monospace",
+    "editor.fontSize": 12.3,
+    "C_Cpp.default.includePath": [
+        "/usr/local/opt/readline/include",
+        "./incs"
+    ],
+
+    "better-comments.tags": [
+
+        {
+          "tag": "memo",
+          "color": "#000000",
+          "strikethrough": false,
+          "underline": true,
+          "backgroundColor": "#FFFFFF",
+          "bold": false,
+          "italic": false
+        }
+    ],
+    "terminal.integrated.fontFamily": "Monaco Nerd Font"
+    // "todo-tree.regex.enableMultiLine": true,
+    // "todo-tree.regex.regex": "((//|#|;|\\*)[ ]*($TAGS)[^\\n]*)|(/\\*(\\*?\\s*)*($TAGS)(.|\\n|\\r)*?\\*/)|(<!--\\s*($TAGS)(.|\\n|\\r)*?-->)"
+    // "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    // "miDebuggerPath": "/usr/bin/gcc"
+}

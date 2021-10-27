@@ -1,0 +1,57 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "gcc build active file",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-fsanitize=address",
+                "${fileDirname}/*.c",
+                "-o",
+                "${fileDirname}/a.out"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+
+        {
+            "type": "shell",
+            "label": "*.c",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-Werror",
+                "-g",
+                "-fsanitize=address",
+                "${fileDirname}/*.c",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.out",
+                "-D BUFFER_SIZE=42"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+
+        {
+            "label": "exec",
+            "type": "shell",
+            "command": "${fileDirname}/${fileBasenameNoExtension}.out",
+            "group": "test",
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
