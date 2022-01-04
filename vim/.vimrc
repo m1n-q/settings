@@ -13,15 +13,16 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
 
 " vim with git command(e.g., Gdiff)
-" Plugin 'tpope/vim-fugitive' 
+Plugin 'tpope/vim-fugitive'
 
 " vim status bar
-Plugin 'vim-airline/vim-airline' 
+Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
 " vim hilighting split window
 Plugin 'blueyed/vim-diminactive'
 
+Plugin 'valloric/youcompleteme'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
